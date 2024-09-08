@@ -66,7 +66,7 @@ client.on('ready', async (c) => {
 // Receives user messages
 client.on('messageCreate', async (message) => {
 
-    // Ignore message if it belongs to another discord server or the athor is a bot
+    // Ignore message if it belongs to another discord server or the author is a bot
     if (!message.guild || message.author.bot) return;
 
     // Get the voice channel
